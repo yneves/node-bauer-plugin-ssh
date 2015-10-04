@@ -1,0 +1,38 @@
+{
+  "name": "bauer-plugin-ssh",
+  "version": "0.1.0",
+  "description": "Plugin for bauer to execute commands over ssh.",
+  "keywords": [
+    "multi-thread",
+    "multi-core",
+    "process",
+    "fork",
+    "multi-process",
+    "cluster",
+    "crawler",
+    "ssh"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yneves/node-bauer-plugin-ssh",
+  "author": {
+    "name": "Yuri Neves Silveira",
+    "url": "http://yneves.com",
+    "email": "npm@yneves.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yneves/node-bauer-plugin-ssh.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": ">=1.0.0"
+  },
+  "dependencies": {
+    "bauer-crawler": "*",
+    "bauer-factory": "*",
+    "ssh2": "^0.4.11"
+  },
+  "main": "lib/index.js"
+}
